@@ -1,38 +1,8 @@
-# Sample Vanilla app for KaiOS
+# BTE-KAIOS
 
-Simple example of a to-do list, for more information see [KaiOS Developer Portal](https://developer.kaiostech.com/getting-started/build-your-first-app/sample-code#vanilla)
+this app need to
+- connect to a bluetooth
+- read from the bluetooth
+- write to the bluetooth
 
-![](./docs/to-do-on-input.png)
-![](./docs/to-do.png)
-
-In portrait devices
-
-![](./docs/to-do-portrait.gif)
-
-In landscape devices
-
-![](./docs/to-do-landscape.gif)
-
-## Start
-
-```console
-npm run start
-# or
-yarn start
-```
-
-## Build app
-
-```console
-npm run build
-# or
-yarn build
-```
-
-## Send the app to a KaiOS device
-
-```console
-npm run app:install
-# or
-yarn app:install
-```
+Following this guide http://man.hubwiz.com/docset/JavaScript.docset/Contents/Resources/Documents/developer.mozilla.org/en-US/docs/Mozilla/Firefox_OS/API/Bluetooth_API/Using_the_Web_Bluetooth_API.html
